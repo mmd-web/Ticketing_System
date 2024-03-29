@@ -30,26 +30,6 @@
     color: #000;
 }
 
-#box_origin {
-    background-color: transparent;
-}
-#box_origin>select {
-    width: 25%;
-    height: 50px;
-    padding: 0 20px;
-    font-family: var(--Fontfamily);
-    font-size: 19px;
-    color: #000;
-    border: 1.5px solid #4f4f4f98;
-    border-radius: 12px;
-    box-shadow: 0 0 10px #403e4e98;
-}
-#box_origin>span {
-    font-family: var(--Fontfamily);
-    font-size: 22px;
-    color: #000;
-}
-
 #box_content>#box_destination {
     background-color: transparent;
     gap: 5px;
@@ -81,4 +61,5 @@
     font-size: 22px;
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
 }
