@@ -1,17 +1,15 @@
 #box_content {
     width: 60%;
     height: 100%;
-    background-color: #fff;
+    background-color: #ffffff63;
+    backdrop-filter: blur(10px);
 }
-#box_content>div {
+
+#box_user {
     width: 100%;
     height: 25%;
     background-color: transparent;
     gap: 15px;
-}
-
-#box_user {
-    background-color: transparent;
 }
 #box_user>input {
     width: 25%;
@@ -31,8 +29,10 @@
 }
 
 #box_content>#box_destination {
-    background-color: transparent;
-    gap: 5px;
+    width: 100%;
+    height: 35%;
+    background-color:transparent;
+    gap: 30px;
 }
 #box_destination>select {
     width: 25%;
@@ -51,6 +51,12 @@
     color: #000;
 }
 
+#box_btn {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    align-items: start;
+}
 #box_btn>button {
     width: 400px;
     height: 50px;
