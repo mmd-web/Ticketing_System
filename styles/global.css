@@ -1,3 +1,7 @@
+:root {
+    --Fontfamily : sans-serif;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -9,11 +13,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url();
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
+    background-color: #e9e9f3;
 }
 
 .flex_center {
