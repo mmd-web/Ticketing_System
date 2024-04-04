@@ -44,6 +44,7 @@
     border: 1.5px solid #4f4f4f98;
     border-radius: 12px;
     box-shadow: 0 0 10px #403e4e98;
+    cursor: pointer;
 }
 #box_destination>span {
     font-family: var(--Fontfamily);

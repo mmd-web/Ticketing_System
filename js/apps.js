@@ -13,11 +13,17 @@ let repoOfCityOrigin = {
 }
 
 dataDestination.addEventListener ("change" , () => {
-    let repodataDestination = dataDestination.value;
+    if (dataDestination.value === 'select') {
+        dataDestinationCity.innerHTML = '';
+        dataDestinationCity.innerHTML += '<option>Select the city ...</option>';
+    }else {
+        dataDestinationCity.innerHTML = '';
+        let repodataDestination = dataDestination.value;
+        let userCity = repoOfCityOrigin[repodataDestination];
+        userCity.forEach((citys) => {
+            dataDestinationCity.innerHTML += '<option>'+citys+'</option>';
+        });
+    }
     // console.log(repoOfCityOrigin[repodataDestination]);
-    dataDestinationCity.innerHTML = '';
-    let userCity = repoOfCityOrigin[repodataDestination];
-    userCity.forEach((citys) => {
-        dataDestinationCity.innerHTML += '<option>'+citys+'</option>';
-    });
+
 })
