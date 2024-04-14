@@ -5,5 +5,5 @@
 <hr/>
 
 <h3>
-  <a href = "https://mmd-web.github.io/Weather_Page">Sample project</a>
+  <a href = "https://mmd-web.github.io/Ticketing_System">Sample project</a>
 </h3>
