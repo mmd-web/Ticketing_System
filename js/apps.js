@@ -21,9 +21,7 @@ dataDestination.addEventListener ("change" , () => {
         let repodataDestination = dataDestination.value;
         let userCity = repoOfCityOrigin[repodataDestination];
         userCity.forEach((citys) => {
-            dataDestinationCity.innerHTML += '<option>'+citys+'</option>';
+            dataDestinationCity.innerHTML += `<option> ${citys} </option>`;
         });
     }
-    // console.log(repoOfCityOrigin[repodataDestination]);
-
 })
